@@ -20,7 +20,7 @@ public String BankName(){
 	    
 	  
 	 //function to withdraw using  synchronized
-	    public  synchronized void withdraw(int amount) throws Exception{// withdraw method 
+	    public  synchronized void withdraw(int amount) {// withdraw method 
 	       
 	
 	       balance = balance - amount;// amount added with balance and printed
